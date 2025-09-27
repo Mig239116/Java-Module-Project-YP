@@ -17,14 +17,6 @@ public class Car {
         return speed;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSpeed(int speed) {
-        this.speed = speed;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

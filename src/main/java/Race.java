@@ -10,9 +10,9 @@ public class Race {
 
     private Map<Car, Integer> participantsResults;
 
-        public Race() {
-            this.participantsResults = new HashMap<>();
-        }
+    public Race() {
+        this.participantsResults = new HashMap<>();
+    }
 
     public void defineLeader() {
         Optional<Map.Entry<Car, Integer>> maxEntry = participantsResults.entrySet()
